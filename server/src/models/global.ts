@@ -1,6 +1,6 @@
 import { PrismaClient, Prisma } from "@prisma/client";
 
-interface Context {
+export interface Context {
 	prisma: PrismaClient<
 		Prisma.PrismaClientOptions,
 		never,

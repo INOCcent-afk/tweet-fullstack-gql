@@ -1,6 +1,6 @@
 import { gql } from "apollo-server";
 
-export const LikeTypeDef = gql`
+export const tweetTypeDef = gql`
 	type Tweet {
 		id: ID!
 		createdBy: User!
